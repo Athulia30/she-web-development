@@ -1,130 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="view port" content="width=device-width, initial-scale=1.0">
-    <title>Web Development Bootcamp</title>
+  <title>Web Development</title>
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Lobster|Patua+One&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
      <header>
-          <div>
-              <h3>She Gcek</h3>
+          <div class="container">
+        <div id="caption">
+            <h1><span class="highlight">SHE</span>GCEK</h1>
           </div>
           <nav>
               <u1>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li class="current"><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="contact.html">Contact</a></li>
               </u1>
-
-
-          </nav>
+             </nav>
           </header>
-          <section id="Hero">
-              <div>
-                  <h1>Web Development
-                      <br> Bootcamp </h1>
+          <section id="heading">
+              <div class="container">
+                  <h1>Web Development</h1>
+                  <h2>Bootcamp</h2>
+              </div>
           </section>
-          <section id="images">
-              <div>
-                  <img src ="img/html.png"
-                  alt="HTML Image">
+
+
+                  <section id="search">
+                </section>
+          </section>
+
+          <section id="boxes">
+              <div class="container">
+                  <div class="box">
+                  <img src ="img/html.png">
                   <h3>HTML</h3>
                   <p>Lorem ipsum dolor sit amet 
                       consectetutor adipiscing elit.
-                      Inciunt suscipit recusandae 
-                      aias quisquam praesentium aut 
-                      dolor distinction assumenda cum
-                      vel asperiores miores vitae 
-                      possimus, dolorious autem st 
-                      voluptates rem fugiat! </p>
+                      Vivamus mi augue,viverra sit ultrices
+                 </p>
               </div>
-              <div>
-                <img src ="img/css.png"
-                alt="CSS Image">
+              <div class="box">
+                <img src ="img/css.png">
                 <h3>CSS</h3>
 
                 <p>Lorem ipsum dolor sit amet 
                     consectetutor adipiscing elit.
-                    Inciunt suscipit recusandae 
-                    aias quisquam praesentium aut 
-                    dolor distinction assumenda cum
-                    vel asperiores miores vitae 
-                    possimus, dolorious autem st 
-                    voluptates rem fugiat! </p>
+                    Vivamus mi augue,viverra sit ultrices
+                
+                </p>
               </div>
-              <div>
-                <img src ="img/js.png"
-                alt="JS Image" height = "200" width = "200">
+              <div class="box">
+                <img src ="img/js.png">
                 <h3>JS</h3>
                 <p>Lorem ipsum dolor sit amet 
                     consectetutor adipiscing elit.
-                    Inciunt suscipit recusandae 
-                    aias quisquam praesentium aut 
-                    dolor distinction assumenda cum
-                    vel asperiores miores vitae 
-                    possimus, dolorious autem st 
-                    voluptates rem fugiat! </p>
+                    Vivamus mi augue,viverra sit ultrices
+                
+                  </p>
               </div>
           </section>
-          <section id="Slogan">
-              <div>
+          <div class="clr"></div>
+
+          <section id="slogan">
+              <div class="container">
+                <div class="slogan">
                   <h2>Hurry up! and experience the journey 
                       with us!</h2>
                       <p>Lorem ipsum dolor sit amet 
                         consectetutor adipiscing elit.
-                        Eveniet , nobis. Velit, ab ipsum
-                        et ratione porro sed hic libero
-                        architecto autem accusamus nemo
-                        prasentium neque dolorem , 
-                        facilis maxime assumende. Illo?
+                        Vivamus mi augue,viverra sit ultrices
+                
                      </p>
+                     <h4>Register Here</h4>
                       </div>
+                    </div>
           </section>
             
 
-            <section id = "forms"> 
-            <h4>Register Here</h4>
-            <div>
-                <form>
-                    <div>
+            <section id = "my-form"> 
+                <div class="container">
+               <form style="text-align: center;justify-content:center;">
+                    <div class="form-group">
                         <label>Name</label>
-                        <input type ="text">
+                        <input type ="text" name="name">
                     </div>
-                    <div>
+                    <div class="form-group">
                         <label>Email </label>
                         <input type ="email">
                     </div>
-                    <div>
+                    <div class="form-group">
                         <label>Batch</label>
-                        <select>
-                            <option>2k20</option>
-                            <option>2k19</option>
-                            <option>2k18</option>
-                            <option>2k17</option>
-                        </select>
+                        <input type="password" name="password">
                     </div>
-                    <div>
-                         <input type="submit">
-                    </div>
+                    <input type="submit">
                 </form>
             </div>
             </section>
-            <section id="Video">
-                <h2>Learn , Explore and Create</h2>
+
+            <section id="slogan-2">
+                <div class="container">
+                    <div class="slogan">
+                        <h2>Learn , Explore and Create</h2>
+                    </div>
+                </div>
+            </section>
+            <section id="videos">
+                <div class = "container">
+                <div class="video">
                 <iframe width="600" height="400" src="https://www.youtube.com/embed/HEMjF3LEtCo" 
                 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
                  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 </div>
+                </div>
             </section>
             <footer>
                 <p>
                     For further information Email at 
                     <a href="#"> abc@xyz.com</a>
                     Copyright &copy; 2020
+                    <p>This is a fake website
                 </p>
             </footer>
       
 </body>
 </html>
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Se
